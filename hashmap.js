@@ -131,11 +131,6 @@ class HashMap{
 
         }
 
-    getCapacity(){
-        console.log(this.#currentSize)
-        return this.#capacity;
-    }
-
     get(key){
 
         let index = this.#hash(key);
